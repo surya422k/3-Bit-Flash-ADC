@@ -1,5 +1,5 @@
 # Mixed Signal Circuit Design and Simulation Marathon
-# 3-Bit-Flash-ADC
+# 3 Bit Flash ADC using ROM-based Encoder
 - [Abstract](#abstract)
 - [Reference Circuit Diagram](#reference-circuit-diagram)
 - [Reference Waveform](#reference-waveform)
