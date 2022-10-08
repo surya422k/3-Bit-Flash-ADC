@@ -166,3 +166,9 @@ endmodule
 endmodule
 
 ```
+
+## Makerchip Plots
+
+![Screenshot (52)](https://user-images.githubusercontent.com/47589022/194709428-637192f9-b4f9-4fb4-b5ba-09ed917bcfc3.png)
+
+![Screenshot (54)](https://user-images.githubusercontent.com/47589022/194709438-f164bebe-ae6c-43a3-94c3-c716af057f99.png)
