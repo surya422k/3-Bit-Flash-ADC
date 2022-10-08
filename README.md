@@ -182,6 +182,15 @@ Post Encoder
 
 ## Ngspice Plots
 
+Case 000
+
+![000](https://user-images.githubusercontent.com/47589022/194719003-dddf8814-1187-454d-932a-0e8ca0f037ee.png)
+
+Case 111
+
+![111](https://user-images.githubusercontent.com/47589022/194719021-80ec4c38-df53-451d-8b1d-3fa7821ac548.png)
+
+
 ## Steps to run generate NgVeri Model
 1. Open eSim
 2. Run NgVeri-Makerchip 
@@ -204,3 +213,15 @@ Post Encoder
   - Run eSim</br>
   - Load the project</br>
   - Open eeSchema</br>
+
+## Acknowlegdements
+1. FOSSEE, IIT Bombay
+2. Steve Hoover, Founder, Redwood EDA
+3. Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalpghosh@gmail.com
+4. Sumanto Kar, eSim Team, FOSSEE
+5. http://iitb.ac.in/
+6. https://www.google.co.in/
+7. https://fossee.in/ 
+8. https://spoken-tutorial.org/
+9. https://www.vlsisystemdesign.com/
+10. https://www.c2s.gov.in/
