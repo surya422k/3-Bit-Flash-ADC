@@ -27,3 +27,6 @@
 ## Abstract
 
 Analog To Digital Converters (ADC) are used in modern high performance telecommunication systems. The fastest ADC is the flash architecture. Also called the parallel Analog to Digital converter, this circuit is the simplest to understand. It is formed of a series of comparators, each one comparing the input signal to a unique reference voltage. The comparator outputs connect to the inputs of a priority encoder circuit, which then produces a binary output. In this design we implement a ROM(Read Only Memory) -based encoder for ADC, which is the fastest encoder
+
+## Reference Circuit Diagram
+
