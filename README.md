@@ -66,6 +66,50 @@ The following is the Schematic in eSim
 
 ## Verilog Code
 
-![Screenshot (51)](https://user-images.githubusercontent.com/47589022/194709073-6fbf4ce7-2f47-46f9-ba61-d88260658cd8.png)
+![Screenshot (51)](https://user-images.githubusercontent.com/47589022/194709229-a364aa29-0cee-47a4-abc5-6ceac7f93c2c.png)
+![Screenshot (53)](https://user-images.githubusercontent.com/47589022/194709237-1d579c69-8e9e-4177-b2b3-d9e91b175c42.png)
 
-![Screenshot (53)](https://user-images.githubusercontent.com/47589022/194709081-34946a2e-dd4c-4594-9ca5-5772aaeef226.png)
+## Makerchip
+```
+\TLV_version 1d: tl-x.org
+\SV
+/* verilator lint_off UNUSED*/  /* verilator lint_off DECLFILENAME*/  /* verilator lint_off BLKSEQ*/  /* verilator lint_off WIDTH*/  /* verilator lint_off SELRANGE*/  /* verilator lint_off PINCONNECTEMPTY*/  /* verilator lint_off DEFPARAM*/  /* verilator lint_off IMPLICIT*/  /* verilator lint_off COMBDLY*/  /* verilator lint_off SYNCASYNCNET*/  /* verilator lint_off UNOPTFLAT */  /* verilator lint_off UNSIGNED*/  /* verilator lint_off CASEINCOMPLETE*/  /* verilator lint_off UNDRIVEN*/  /* verilator lint_off VARHIDDEN*/  /* verilator lint_off CASEX*/  /* verilator lint_off CASEOVERLAP*/  /* verilator lint_off PINMISSING*/  /* verilator lint_off LATCH*/  /* verilator lint_off BLKANDNBLK*/  /* verilator lint_off MULTIDRIVEN*/  /* verilator lint_off NULLPORT*/  /* verilator lint_off EOFNEWLINE*/  /* verilator lint_off WIDTHCONCAT*/  /* verilator lint_off ASSIGNDLY*/  /* verilator lint_off MODDUP*/  /* verilator lint_off STMTDLY*/  /* verilator lint_off LITENDIAN*/  /* verilator lint_off INITIALDLY*/  /* verilator lint_off */  
+
+//Your Verilog/System Verilog Code Starts Here:
+`timescale 1ns / 1ps
+
+module preencoder(
+	output [6:0] out,
+	input [6:0] in
+    );
+	 
+	 buf (out[6],in[6]);
+	 buf (out[5],in[5]);
+	 not (in4,in[4]);
+	 nor (out[4],in4,in[5]);
+	 buf (out[3],in[3]);
+	 not (in2,in[2]);
+	 nor (out[2],in2,in[3]);
+	 not (in1,in[1]);
+	 nor (out[1],in1,in[3]);
+	 not (in0,in[0]);
+	 nor (out[0],in1,in[1]);
+
+
+endmodule
+
+
+//Top Module Code Starts here:
+	module top(input logic clk, input logic reset, input logic [31:0] cyc_cnt, output logic passed, output logic failed);
+		logic  [6:0] out;//output
+		logic  [6:0] in;//input
+//The $random() can be replaced if user wants to assign values
+		assign in = $random();
+		preencoder preencoder(.out(out), .in(in));
+	
+\TLV
+//Add \TLV here if desired                                     
+\SV
+endmodule
+
+```
