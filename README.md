@@ -36,4 +36,29 @@ Analog To Digital Converters (ADC) are used in modern high performance telecommu
 
 ![Output](https://user-images.githubusercontent.com/47589022/194708100-b56a3248-8557-4282-8edc-d3395000228c.jpeg)
 
+## Circuit Details
+
+The circuit consists of 7 resistors and 7 comparators, for a 3 bit ADC. The encoder converts the comparator outputs into a coded word format. This process converts a analog voltage value into a digital word format. In this circuit instead of using 8-to-3 priority encoder, we will be implementing this encoding using a ROM-based encoder. ROM-based encoder is the fastest encoder among all encoders. The encoder can be implemented with both logic gates and CMOS gates.
+
+## Software Used
+
+### eSim
+It is an Open Source EDA developed by FOSSEE, IIT Bombay. It is used for electronic circuit simulation. It is made by the combination of two software namely NgSpice and KiCAD.
+</br>
+For more details refer:
+</br>
+https://esim.fossee.in/home
+### NgSpice
+It is an Open Source Software for Spice Simulations. For more details refer:
+</br>
+http://ngspice.sourceforge.net/docs.html
+### Makerchip
+It is an Online Web Browser IDE for Verilog/System-verilog/TL-Verilog Simulation. Refer
+</br> https://www.makerchip.com/
+### Verilator
+It is a tool which converts Verilog code to C++ objects. Refer:
+https://www.veripool.org/verilator/
+
+
+
 
