@@ -64,6 +64,8 @@ The following is the Schematic in eSim
 
 ![Screenshot (50)](https://user-images.githubusercontent.com/47589022/194708464-0e6a961f-bf53-4640-bbbd-e5ed969dbc0b.png)
 
+## Verilog Code
 
+![Screenshot (51)](https://user-images.githubusercontent.com/47589022/194709073-6fbf4ce7-2f47-46f9-ba61-d88260658cd8.png)
 
-
+![Screenshot (53)](https://user-images.githubusercontent.com/47589022/194709081-34946a2e-dd4c-4594-9ca5-5772aaeef226.png)
