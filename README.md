@@ -203,7 +203,7 @@ Case 111
 ## Steps to run this project
 1. Open a new terminal
 2. Clone this project using the following command:</br>
-```git clone https://github.com/Eyantra698Sumanto/XOR-XNOR-Gate.git ```</br>
+```git clone https://github.com/surya422k/3-Bit-Flash-ADC.git ```</br>
 3. Change directory:</br>
 ```cd eSim_project_files/xor_xnor```</br>
 4. Run ngspice:</br>
