@@ -168,7 +168,14 @@ endmodule
 ```
 
 ## Makerchip Plots
-
+Pre Encoder
 ![Screenshot (52)](https://user-images.githubusercontent.com/47589022/194709516-23e0a0f2-90c5-4a5e-a406-c6a4edef8f6a.png)
 
+Post Encoder
 ![Screenshot (54)](https://user-images.githubusercontent.com/47589022/194709525-e195df8f-5e5d-470d-9a24-0013c0a61491.png)
+
+## Netlists
+
+![Screenshot (55)](https://user-images.githubusercontent.com/47589022/194709647-da44c15e-15c2-4b99-958a-485613d722d3.png)
+
+![Screenshot (56)](https://user-images.githubusercontent.com/47589022/194709650-c65646b4-d534-4793-85e3-ea3cc55a233e.png)
