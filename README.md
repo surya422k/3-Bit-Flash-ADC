@@ -59,6 +59,11 @@ It is an Online Web Browser IDE for Verilog/System-verilog/TL-Verilog Simulation
 It is a tool which converts Verilog code to C++ objects. Refer:
 https://www.veripool.org/verilator/
 
+## Circuit Diagram In eSim
+The following is the Schematic in eSim
+
+![Screenshot (50)](https://user-images.githubusercontent.com/47589022/194708464-0e6a961f-bf53-4640-bbbd-e5ed969dbc0b.png)
+
 
 
 
