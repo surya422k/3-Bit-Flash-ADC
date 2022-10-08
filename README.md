@@ -32,3 +32,8 @@ Analog To Digital Converters (ADC) are used in modern high performance telecommu
 
 ![3-s2 0-B9780120683772500048-f04-11-9780120683772](https://user-images.githubusercontent.com/47589022/194708030-75ef9fe5-b927-4380-baa4-42b5802ffeca.jpg)
 
+## Reference Waveform
+
+![Output](https://user-images.githubusercontent.com/47589022/194708100-b56a3248-8557-4282-8edc-d3395000228c.jpeg)
+
+
